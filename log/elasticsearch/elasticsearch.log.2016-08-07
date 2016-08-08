@@ -1,0 +1,20 @@
+[2016-08-07 23:52:39,130][WARN ][bootstrap                ] unable to install syscall filter: seccomp unavailable: your kernel is buggy and you should upgrade
+[2016-08-07 23:52:39,311][INFO ][node                     ] [Unus the Untouchable] version[2.3.4], pid[48], build[e455fd0/2016-06-30T11:24:31Z]
+[2016-08-07 23:52:39,311][INFO ][node                     ] [Unus the Untouchable] initializing ...
+[2016-08-07 23:52:39,877][INFO ][plugins                  ] [Unus the Untouchable] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-08-07 23:52:39,897][INFO ][env                      ] [Unus the Untouchable] using [1] data paths, mounts [[/var/lib/elasticsearch (/dev/sda2)]], net usable_space [847.8gb], net total_space [910.5gb], spins? [possibly], types [ext4]
+[2016-08-07 23:52:39,897][INFO ][env                      ] [Unus the Untouchable] heap size [990.7mb], compressed ordinary object pointers [true]
+[2016-08-07 23:52:39,897][WARN ][env                      ] [Unus the Untouchable] max file descriptors [65535] for elasticsearch process likely too low, consider increasing to at least [65536]
+[2016-08-07 23:52:41,899][INFO ][node                     ] [Unus the Untouchable] initialized
+[2016-08-07 23:52:41,899][INFO ][node                     ] [Unus the Untouchable] starting ...
+[2016-08-07 23:52:42,009][INFO ][transport                ] [Unus the Untouchable] publish_address {172.20.0.2:9300}, bound_addresses {[::]:9300}
+[2016-08-07 23:52:42,014][INFO ][discovery                ] [Unus the Untouchable] elasticsearch/qkEKNsBESJCKqXonVMukTA
+[2016-08-07 23:52:45,085][INFO ][cluster.service          ] [Unus the Untouchable] new_master {Unus the Untouchable}{qkEKNsBESJCKqXonVMukTA}{172.20.0.2}{172.20.0.2:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-08-07 23:52:45,107][INFO ][http                     ] [Unus the Untouchable] publish_address {172.20.0.2:9200}, bound_addresses {[::]:9200}
+[2016-08-07 23:52:45,108][INFO ][node                     ] [Unus the Untouchable] started
+[2016-08-07 23:52:45,343][INFO ][gateway                  ] [Unus the Untouchable] recovered [1] indices into cluster_state
+[2016-08-07 23:52:45,895][INFO ][cluster.routing.allocation] [Unus the Untouchable] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.kibana][0]] ...]).
+[2016-08-07 23:59:25,322][INFO ][node                     ] [Unus the Untouchable] stopping ...
+[2016-08-07 23:59:25,358][INFO ][node                     ] [Unus the Untouchable] stopped
+[2016-08-07 23:59:25,358][INFO ][node                     ] [Unus the Untouchable] closing ...
+[2016-08-07 23:59:25,365][INFO ][node                     ] [Unus the Untouchable] closed

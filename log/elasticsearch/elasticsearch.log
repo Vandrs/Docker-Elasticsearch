@@ -1,0 +1,17 @@
+[2016-08-08 00:01:12,719][WARN ][bootstrap                ] unable to install syscall filter: seccomp unavailable: your kernel is buggy and you should upgrade
+[2016-08-08 00:01:12,910][INFO ][node                     ] [Korrek] version[2.3.4], pid[47], build[e455fd0/2016-06-30T11:24:31Z]
+[2016-08-08 00:01:12,910][INFO ][node                     ] [Korrek] initializing ...
+[2016-08-08 00:01:13,460][INFO ][plugins                  ] [Korrek] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2016-08-08 00:01:13,481][INFO ][env                      ] [Korrek] using [1] data paths, mounts [[/var/lib/elasticsearch (/dev/sda2)]], net usable_space [847.8gb], net total_space [910.5gb], spins? [possibly], types [ext4]
+[2016-08-08 00:01:13,481][INFO ][env                      ] [Korrek] heap size [990.7mb], compressed ordinary object pointers [true]
+[2016-08-08 00:01:13,481][WARN ][env                      ] [Korrek] max file descriptors [65535] for elasticsearch process likely too low, consider increasing to at least [65536]
+[2016-08-08 00:01:15,332][INFO ][node                     ] [Korrek] initialized
+[2016-08-08 00:01:15,332][INFO ][node                     ] [Korrek] starting ...
+[2016-08-08 00:01:15,449][INFO ][transport                ] [Korrek] publish_address {172.20.0.2:9300}, bound_addresses {[::]:9300}
+[2016-08-08 00:01:15,454][INFO ][discovery                ] [Korrek] elasticsearch/KD74y-QmSee00fCxurD2Wg
+[2016-08-08 00:01:18,526][INFO ][cluster.service          ] [Korrek] new_master {Korrek}{KD74y-QmSee00fCxurD2Wg}{172.20.0.2}{172.20.0.2:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-08-08 00:01:18,541][INFO ][http                     ] [Korrek] publish_address {172.20.0.2:9200}, bound_addresses {[::]:9200}
+[2016-08-08 00:01:18,542][INFO ][node                     ] [Korrek] started
+[2016-08-08 00:01:18,719][INFO ][gateway                  ] [Korrek] recovered [1] indices into cluster_state
+[2016-08-08 00:01:19,312][INFO ][cluster.routing.allocation] [Korrek] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.kibana][0]] ...]).
+[2016-08-08 00:01:54,971][INFO ][cluster.metadata         ] [Korrek] [.kibana] create_mapping [index-pattern]

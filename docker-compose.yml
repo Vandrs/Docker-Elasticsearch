@@ -1,0 +1,12 @@
+version: '2'
+services:
+    elk:
+        build: ./
+        volumes:
+            - ./data:/var/lib/elasticsearch
+            - ./log/elasticsearch:/var/log/elasticsearch
+        ports:
+            - "5601:5601"
+            - "9200:9200"
+            - "5044:5044"
+            - "5000:5000"
